@@ -1,0 +1,7 @@
+django
+whitenoise
+urllib3
+django-cors-headers
+djangorestframework
+cloudinary
+dj-database-url
