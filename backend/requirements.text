@@ -5,3 +5,4 @@ django-cors-headers
 djangorestframework
 cloudinary
 dj-database-url
+django-filter
