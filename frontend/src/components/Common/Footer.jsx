@@ -1,5 +1,5 @@
 import React from "react";
-import ImgLogo from "../../assets/img/image/TASTY-TATERS--logo.svg";
+import logo from "../assets/img/Hunger-Captian.svg"
 
 const Footer = ({ price, showCartList, setShowCartList }) => {
   return (
@@ -20,7 +20,7 @@ const Footer = ({ price, showCartList, setShowCartList }) => {
         )}
       </footer>
       <section className="bottom-footer">
-        <img src={ImgLogo} alt="logo" />
+        <img src={logo} alt="logo" />
         <p>Premium Quality food at the best and most affordable price.</p>
         <p>We have a new offer every day for 365 days</p>
         <span className="contact">Contact</span> <br />

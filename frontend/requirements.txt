@@ -1,0 +1,10 @@
+react
+redux
+react-router-dom
+connected-react-router
+reselect
+redux-thunk
+axois
+query-string
+url-loader
+file-loader

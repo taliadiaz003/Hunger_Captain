@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
-import ImgReaction1 from "../../assets/img/reaction1.svg";
-import ImgReaction2 from "../../assets/img/reaction2.svg";
-import ImgReaction3 from "../../assets/img/reaction3.svg";
-import ImgReaction0 from "../../assets/img/reaction0.svg";
-import ImgIconCross from "../../assets/img/cross.svg";
-import API from "../../API";
+import ImgReaction1 from "../assets/img/reaction-1.svg";
+import ImgReaction2 from "../assets/img/reaction-2.svg";
+import ImgReaction3 from "../assets/img/reaction-3.svg";
+import ImgReaction0 from "../assets/img/reaction0.svg";
+import ImgIconCross from "../assets/img/cross.svg";
+import API from "../assets/API";
 
 const api = new API();
 

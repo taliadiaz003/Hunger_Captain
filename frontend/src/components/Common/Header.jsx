@@ -1,17 +1,16 @@
 import React from "react";
-import logo from "../../assets/img/image/TASTY-TATERS--logo.svg";
-import Mainbanner from '../../assets/img/image/main-bkg.png';
-
+import logo from "../assets/img/Hunger-Captian.svg"
+import mainBackground from "../assets/img/main-background.png"
 
 const Header = () => {
   return (
     <>
       <header>
-        <img src={Mainbanner} alt="" />
+        <img src={mainBackground} alt="main background" />
         
       </header>
       <section className="logo">
-        <img src={logo} alt="" />
+        <img src={logo} alt="Hunger Captain logo" />
       </section>
       <section className="text">
         <p>

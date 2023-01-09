@@ -1,4 +1,4 @@
-import API from "../../API"
+import API from "../../components/assets/API"
 import {addCartAction, increaseCartAction, decreaseCartAction, fetchCartAction} from "./actions";
 
 const api = new API();

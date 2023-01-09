@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import ImgIconHeart from "../../assets/img/heart.svg";
-import AddtoCart from '../../assets/img/image/cart.png';
+import ImgIconHeart from "../assets/img/heart.svg";
+import AddtoCart from '../assets/img/cart.svg';
 import { addCart, increaseCart, decreaseCart } from "../../reducks/carts/operations";
 
 const Item = ({ item, selected_count, setShowWriteReview, setShowReviews, setSelectedItemId }) => {
