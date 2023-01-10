@@ -14,9 +14,11 @@ const Header = () => {
       </section>
       <section className="text">
         <p>
-        To eat is a necessity, <br /> <span>BUT TO EAT</span>  <br />
-        intelligently is an art.
+        Good food is <br />
+        The Foundation of<br />
+        <span class = "genuine" >GENUINE</span> <span class = "happiness" >HAPPINESS</span>
         </p>
+        
       </section>
       </>
   );

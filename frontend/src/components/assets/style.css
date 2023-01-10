@@ -12,6 +12,7 @@ body {
 h1 {
   font-size: 30px;
   text-align: center;
+  color: maroon;
 }
 li {
   list-style: none;
@@ -190,6 +191,7 @@ header img.white-border {
   position: absolute;
   top: 28%;
   left: 10%;
+  font-family: Arial, Helvetica, sans-serif ;
 }
 .text p {
   font-size: 3.5vw;
@@ -198,9 +200,23 @@ header img.white-border {
   line-height: 1.4;
 }
 .text span {
-  color: rgba(0, 0, 0, 0.883);
-  background-color: white;
+  color: orange;
   padding: 2%;
+  font-family: Arial, Helvetica, sans-serif ;
+}
+
+.genuine {
+  position: absolute;
+  display: inline-block;
+  right: 46%;
+  top: 78%;
+}
+
+.happiness {
+  position: absolute;
+  display: inline-block;
+  left: 54%;
+  top: 78%;
 }
 /****************************
 * Media Screen
@@ -268,7 +284,7 @@ footer .subtotal {
 footer button {
   margin-right: 20px;
   margin-left: 20px;
-  background-color: black;
+  background-color: maroon;
   border-radius: 30px;
   color: white;
   border: 0;
@@ -279,7 +295,7 @@ footer button {
 
 footer button.link-button {
   color: white;
-  background-color: black;
+  background-color: maroon;
   padding: 5px 25px;
   /* font-weight: bold; */
 }
@@ -347,15 +363,17 @@ footer button.link-button {
   width: 100%;
 }
 .content .popular-recipes p {
-  font-family: Cairo;
   font-weight: 600;
   font-size: 30px;
   margin: 0;
   padding: 10px 0px;
+  color: maroon;
+  font-family: Arial, Helvetica, sans-serif ;
 }
 .content .popular-recipes span {
   color: rgba(0, 0, 0, 0.486);
-  font-weight: 600;
+  font-weight: 550;
+  font-family: Arial, Helvetica, sans-serif ;
 }
 .content .popular-recipes img {
   padding: 0px 0px 10px 0px;
@@ -375,6 +393,13 @@ footer button.link-button {
     font-size: 14px;
   }
 }
+
+  .yellow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 
 /****************************
 * Popup 

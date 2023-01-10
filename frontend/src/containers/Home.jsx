@@ -10,6 +10,7 @@ import { getItems } from "../reducks/items/selectors";
 import { getCarts, getSubtotal } from "../reducks/carts/selectors";
 import { fetchFromLocalStorage } from "../reducks/carts/operations";
 import queryString from "query-string";
+import yellow from "../components/assets/img/yellow.png";
 
 
 const Home = () => {
@@ -61,12 +62,14 @@ const Home = () => {
       <section class="content">
         {showCartList ? (
           <>
-            <h1>Cart</h1>
+            <h1>Cart</h1> <br />
+            <img src={yellow} class="yellow"/>
           </>
         ) : (
           <>
             <div className="popular-recipes">
               <p>Our Most Popular Recipes</p>
+              <img src={yellow}/> <br />
               <span>
               Try our Most Delicious food and it usually take minutes to deliver!
               </span>
