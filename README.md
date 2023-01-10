@@ -5,7 +5,7 @@ This is an online food menu service of a restaurant. These days, when you visit 
 **This App uses a Replit free plan, so I am afraid that it takes time to load the pages.**
 Check out [FRONTEND LIVE DEMO](https://hunger-cap-frontend.taliadiaz.repl.co) here!!
 Check out [API LIVE DEMO](https://HUunger-cap-backend.taliadiaz.repl.co) here!!
-![Screen Shot 2023-01-09 at 10 32 36 PM](https://user-images.githubusercontent.com/108022651/211456094-c4eb004f-aadc-4f21-a941-9e8c1e092a6f.png)
+![Screen Shot 2023-01-09 at 10 34 53 PM](https://user-images.githubusercontent.com/108022651/211456265-30a4da54-751d-4e91-8f96-9d178c7a97af.png)
 
 ## Tech used
 ```
